@@ -2,75 +2,105 @@
 
 **An interactive benefits realization prototype that helps product and project leaders track whether delivered work produces the value it promised, from business case to realized outcomes.**
 
+**Product Lifecycle Stage:** Measure
+
+**[Launch Interactive Prototype](https://nnekaanadu-art.github.io/value-ledger/)**
+
 ## Overview
 
-Organizations approve initiatives based on expected benefits, but those benefits are rarely tracked consistently after delivery. Without a clear view of planned versus actual results, it is difficult to know which investments are paying off and where value is at risk.
+Organizations approve initiatives based on expected benefits, but those benefits are not always tracked consistently after delivery. Without a clear view of planned versus actual results, it becomes difficult to determine which investments are delivering value, where performance is falling short, and what corrective actions may be needed.
 
-I developed this prototype to explore how a simple, structured tool can connect initiatives to their expected benefits, track results over time, and give leadership a clear summary of realized value.
+I developed Value Ledger to explore how a structured, accessible tool can connect initiatives to expected benefits, track performance over time, and provide leadership with a consolidated view of realized value.
 
-The project demonstrates my approach to value management, portfolio governance, and AI-assisted prototyping.
+The prototype demonstrates my approach to value management, portfolio governance, outcome measurement, and AI-assisted prototyping.
 
 ## The Problem
 
 Benefits realization can be challenging because:
 
-- Expected benefits in business cases are often not tracked after delivery.
-- Financial and non-financial benefits are measured in different ways.
-- Ownership of benefits and measurement methods is often unclear.
-- Leaders lack a timely view of which benefits are on track or at risk.
-- Reporting realized value to leadership often requires manual effort.
+- Expected benefits documented in business cases are often not consistently measured after delivery.
+- Financial and non-financial benefits require different measurement approaches.
+- Benefit ownership, baselines, targets, and measurement methods may be unclear.
+- Leaders lack timely visibility into which benefits are on track or at risk.
+- Reporting realized value frequently involves manual consolidation and analysis.
+- Program costs and realized benefits may be tracked separately, making overall financial performance difficult to assess.
 
 ## The Solution
 
-An interactive tracker that brings initiatives, benefits, results, and leadership reporting into one experience.
+Value Ledger provides an interactive workspace that connects initiatives, expected benefits, actual performance, program costs, and executive reporting.
 
 ### Key Capabilities
 
 **Benefits Dashboard**
 
-View financial realization, benefits on track and at risk, net financial value, and a planned versus actual chart.
+Monitor financial benefits realization, benefits on track and at risk, net financial value, and planned versus actual performance through a consolidated dashboard.
 
 **Initiative Management**
 
-Record each initiative with its sponsor, owner, status, delivery date, and approved budget.
+Maintain an initiative register containing sponsors, owners, delivery dates, statuses, and approved budgets.
 
 **Benefits Tracking**
 
-Define financial and non-financial KPIs with baselines, targets, owners, and measurement methods, then record monthly planned and actual results and program costs.
+Define financial and non-financial benefits with baselines, targets, accountable owners, and measurement methods.
+
+Record planned and actual results alongside program costs to evaluate whether expected value is being delivered.
 
 **Green, Amber, and Red Status**
 
-See status based on progress toward planned value, with hover descriptions that explain each rating.
+Identify benefits performing on track, requiring attention, or at risk.
+
+Hover descriptions explain each status, reducing the need for a separate status guide.
 
 **Monthly and Quarterly Views**
 
-Review results by month or by quarter, with quarterly KPIs calculated as a sum, an average, or the latest month.
+Switch between monthly and quarterly performance views for benefits and costs.
+
+Quarterly benefit values can be calculated using a sum, average, or latest-month approach, depending on the KPI's measurement method.
 
 **Executive Brief**
 
-Produce a one-page leadership summary that can be printed or saved as a PDF.
+Generate a consolidated, leadership-ready summary of benefits realization and performance.
+
+The brief is designed for printing or saving as a PDF through the browser.
 
 **Data Export and Import**
 
-Export data as JSON or CSV, and import data from JSON.
+Export portfolio information in JSON or CSV format and import previously saved JSON data.
+
+This supports portability without requiring a connected database.
 
 ## Product Approach
 
 The prototype reflects several product management principles:
 
-1. **Value accountability:** Connect every initiative to the benefits it was approved to deliver.
-2. **Clear ownership:** Assign an owner and a measurement method to each benefit.
-3. **Early visibility:** Highlight benefits at risk so leaders can act before value is lost.
-4. **Balanced measurement:** Track financial and non-financial outcomes side by side.
-5. **Leadership-ready reporting:** Summarize realized value in a format suitable for executive discussions.
+1. **Value accountability:** Connect initiatives to the benefits they were approved to deliver.
+2. **Clear ownership:** Assign accountable owners and documented measurement methods.
+3. **Early visibility:** Highlight benefits at risk so stakeholders can identify potential corrective actions.
+4. **Balanced measurement:** Evaluate financial and non-financial outcomes alongside program costs.
+5. **Flexible reporting:** Support monthly and quarterly performance reviews without duplicating tracking processes.
+6. **Leadership-ready insights:** Translate detailed performance data into concise executive reporting.
+7. **Transparent measurement:** Distinguish planned benefits, actual results, and financial value rather than treating them as interchangeable.
 
 ## Technology and Development
 
-This is an independent portfolio prototype developed through AI-assisted prototyping and iterative product direction.
+Value Ledger is an independent portfolio prototype developed through AI-assisted prototyping and iterative product direction.
 
-The application uses HTML, CSS, and JavaScript and runs directly in a web browser. No installation is needed, and data is saved in your own browser only.
+**Technology:** HTML, CSS, and JavaScript.
 
-The emphasis is on demonstrating product thinking, workflow design, and value reporting rather than representing a production portfolio management platform.
+The application runs directly in a web browser without installation or account creation.
+
+Portfolio information is stored locally in the user's browser rather than in a centralized cloud database.
+
+The development approach emphasizes:
+
+- Translating business requirements into usable portfolio management workflows.
+- Connecting strategic investment decisions with measurable outcomes.
+- Designing consistent monthly and quarterly reporting.
+- Simplifying benefit and cost tracking through consolidated views.
+- Providing transparent status indicators and executive-level summaries.
+- Refining the user experience through iterative testing and feedback.
+
+The prototype demonstrates product thinking, value governance, and performance reporting rather than a production enterprise portfolio management platform.
 
 ## Intended Audience
 
@@ -79,26 +109,57 @@ The emphasis is on demonstrating product thinking, workflow design, and value re
 - Finance and Value Management Teams
 - Executive Sponsors and Business Stakeholders
 
+## Data Storage and Export
+
+Value Ledger stores portfolio information locally in the browser.
+
+Data is not automatically synchronized across devices or shared with other users.
+
+Use the available JSON export functionality to retain a portable backup of your information.
+
+CSV export supports additional analysis outside the prototype.
+
+Browser data may be lost if local storage is cleared, so exported backups are recommended.
+
 ## Future Enhancements
 
 Potential future enhancements include:
 
-- Additional financial measures.
-- Multi-user collaboration and shared data storage.
-- Benefit forecasting and trend analysis.
-- Enhanced executive reporting.
+- Additional financial measures and investment evaluation capabilities.
+- Multi-user collaboration and shared cloud storage.
+- Benefits forecasting and trend analysis.
+- Expanded executive reporting and portfolio comparisons.
 - Improved accessibility and mobile usability.
+- Integration with enterprise portfolio and financial management platforms.
+
+These enhancements are proposed capabilities and are not represented as currently implemented functionality.
+
+## Explore the Prototype
+
+**[Launch Value Ledger](https://nnekaanadu-art.github.io/value-ledger/)**
+
+Explore additional interactive tools through my [Product Leadership Portfolio](https://nnekaanadu-art.github.io/).
 
 ## Disclaimer
 
-This is an independent demonstration prototype using fictional sample information. Figures are illustrative and are not audited financial results. It is not affiliated with an employer or intended to represent a production enterprise application.
+Value Ledger is an independent demonstration prototype created for educational, experimentation, and portfolio purposes.
+
+All sample initiatives, benefits, costs, and financial figures are fictional and illustrative. They do not represent audited financial results or actual organizational performance.
+
+The prototype is not affiliated with any employer and is not intended to replace a production enterprise portfolio management or financial reporting application.
 
 ---
 
-**Created by Nneka Anadu**
+<p align="center">
+  <strong>Product Thinking in Practice</strong>
+</p>
 
-[View My Portfolio](https://nnekaanadu-art.github.io/) | [Connect on LinkedIn](https://www.linkedin.com/in/NnekaAnadu)
+<p align="center">
+  <a href="https://nnekaanadu-art.github.io/">Portfolio Home</a> |
+  <a href="https://www.linkedin.com/in/NnekaAnadu">LinkedIn</a> |
+  <a href="https://github.com/nnekaanadu-art">GitHub</a>
+</p>
 
-
-© 2026 Nneka Anadu. All rights reserved.
-
+<p align="center">
+  © 2026 Nneka Anadu. All rights reserved.
+</p>
